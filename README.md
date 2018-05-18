@@ -1,4 +1,4 @@
 # FAQ Guide
 
-[Masternode FAQ](../MNFAQ.md)  
-[Wallet FAQ](../WALLETFAQ.md)  
+[Masternode FAQ](MNFAQ.md)  
+[Wallet FAQ](WALLETFAQ.md)  
