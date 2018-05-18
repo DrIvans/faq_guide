@@ -1,3 +1,4 @@
+[Back](README.md)  
 # Masternode FAQ  
 
 I receive ```g++: internal compiler error: Killed (program cc1plus)``` when I run ```sudo make -f makefile.unix```  
@@ -8,3 +9,11 @@ My masternode shows to be running but I haven't received a reward in a while, or
 
 When using ```./Escrowd masternode status``` it returns ```"status" : 9``` and ```"notCapableReason" : "Could not find suitable coins!"```   
 > It's normal to see this when the node is operational. Use ```./Escrowd masternode debug``` and if you get ```masternode started remotely``` as a response, everything is good.  
+
+My masternode shows to be started, but the time Active shows 00:00:00.  
+> It can take up to 30 minutes for the active time to update, but if it still isn't updating after 30 minutes, check the Escrow.conf file on your masternode. If the last line of the config is like this:  
+> ```masternodeaddr=address:8018 masternode=1 masternodeprivkey=privatekey```,  
+> you need to seperate each parameter on it's own line like so:  
+> ```masternodeaddr=address:8018```  
+> ```masternode=1```  
+> ```masternodeprivkey=privatekey```  
