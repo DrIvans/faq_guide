@@ -17,3 +17,10 @@ My masternode shows to be started, but the time Active shows 00:00:00.
 > ```masternodeaddr=address:8018```  
 > ```masternode=1```  
 > ```masternodeprivkey=privatekey```  
+
+I am setting up multiple masternodes, do I need to have a private key for each one?  
+> Yes, when setting up multiple masternodes you will have to generate a private key for each node.  
+
+I have multiple masternodes that I need to get verified for Escodex payouts, do I need to do the verification process for each masternode?  
+> Yes, you will have to submit each masternode for verification using the receive address for each masternode.  
+

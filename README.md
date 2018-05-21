@@ -2,3 +2,4 @@
 
 [Masternode FAQ](MNFAQ.md)  
 [Wallet FAQ](WALLETFAQ.md)  
+[Guides](GUIDES.md)  
